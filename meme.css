@@ -1,0 +1,63 @@
+h1 {
+    text-decoration-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+  }
+
+.meme {
+    position: relative;
+    width: 250px;
+    height: 375px;
+}
+
+.meme img {
+    width: 250px;
+    height: 375px;
+    position: absolute;
+    border-style: solid;
+}
+
+.meme:hover {opacity: 0.6;}
+
+.black-cross {
+	width: 250px;
+	height: 375px;
+	content: "X";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-49%, -49%);
+	font-weight: 700;
+	text-align: center;
+	font-size: 1500%;
+	opacity: 0;
+    cursor: pointer;
+}
+
+.black-cross:hover {
+	opacity: 1.6;
+	z-index: 20;
+}
+
+.topText {
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.bottomText {
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#results {
+    display: flex;
+}
+
+
+
